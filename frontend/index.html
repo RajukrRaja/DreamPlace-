@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-XOaY3c3ozkOBO3vzLNnHhAmG6sJx1JFrbVjXfN6tR3bAiwBIlMKq+cB7tOjBAGWly1vjSxH0Kk6rTbe1PxkT8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-6lLUdeQ5uheMFbW8S7Lj/2NkYlJ8Vj2bCk+3YQ2hJjX8vR6VYn6fCxM9Tg0wFdpP2KXw2LePaGTlVJR0Mfw8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.pinimg.com/736x/4a/c5/64/4ac564b1f9c9f73824fc640cc5e0a3b2.jpg" type="image/png">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://i.pinimg.com/736x/4a/c5/64/4ac564b1f9c9f73824fc640cc5e0a3b2.jpg" alt="DreamPlace Logo" class="logo-img">
+                    <h1>DreamPlace</h1>
+                </a>
+            </div>
+            <nav class="nav-links" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                    <li><a href="#tours" class="nav-link">Tours</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="./frontend/component/signup/signup.html" class="btn login-btn">Login/Signup</a>
+                <a href="./component/User/User.html" class="user-profile" aria-label="User Profile">
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/318/271/original/user-profile-icon-free-vector.jpg" alt="User Profile">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle Navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div><img src="https://st.depositphotos.com/2305339/2701/i/450/depositphotos_27017255-stock-photo-back-view-family-of-four.jpg" alt="Family on Beach"></div>
+                <div><img src="https://st2.depositphotos.com/1001001/8087/i/450/depositphotos_80873694-stock-photo-family-with-kids-on-beach.jpg" alt="Kids Playing on Beach"></div>
+                <div><img src="https://st2.depositphotos.com/2305339/7243/i/450/depositphotos_72431573-stock-photo-happy-family-of-four-on.jpg" alt="Happy Family"></div>
+                <!-- Additional Images -->
+                <!-- Repeated images have been removed for brevity -->
+            </div>
+            <button class="prev" aria-label="Previous Slide">&#10094;</button>
+            <button class="next" aria-label="Next Slide">&#10095;</button>
+        </div>
+        <div class="hero-content">
+            <h2>Explore the World</h2>
+            <p>Discover amazing destinations and experiences around the globe.<br>Join us and start your adventure today!</p>
+            <a href="#plan-trip" class="btn plan-trip-btn">Plan Your Trip</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="tours">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-items">
+                <article class="service-item">
+                    <h3>Guided Tours</h3>
+                    <p>Explore cities and natural wonders with our expert guides. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, laboriosam? Autem deserunt molestias voluptates reiciendis. Corporis deserunt veritatis fugiat explicabo repellendus error. Nostrum soluta corporis, totam maiores nam repellat provident.</p>
+                </article>
+                <article class="service-item">
+                    <h3>Travel Planning</h3>
+                    <p>Personalized travel itineraries crafted by our experienced planners. We take care of the details so you can focus on enjoying your trip.</p>
+                </article>
+                <article class="service-item">
+                    <h3>Accommodation Booking</h3>
+                    <p>Stay in the best hotels and resorts. We offer a range of options to suit all budgets and preferences.</p>
+                </article>
+                
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-item">
+                <img src="./component/image/gate photo.jpg" alt="Jane Doe" class="testimonial-img">
+                <p class="testimonial-text">"The guided tour was fantastic! Our guide was knowledgeable and friendly. I learned so much and had a great time exploring the city."</p>
+                <p class="testimonial-author">- Jane Doe</p>
+            </div>
+            <div class="testimonial-item">
+                <img src="./component/image/gate photo.jpg" alt="John Smith" class="testimonial-img">
+                <p class="testimonial-text">"Booking my trip through this agency was the best decision. Everything was perfectly organized, and the accommodations were top-notch."</p>
+                <p class="testimonial-author">- John Smith</p>
+            </div>
+            <div class="testimonial-item">
+                <img src="./component/image/gate photo.jpg" alt="Emily Johnson" class="testimonial-img">
+                <p class="testimonial-text">"I had an amazing experience with their travel planning service. My itinerary was well-thought-out and included all the must-see spots. Highly recommend!"</p>
+                <p class="testimonial-author">- Emily Johnson</p>
+            </div>
+            <!-- Add more testimonial items as needed -->
+        </div>
+    </div>
+</section>
+
+<h2>Destinations We Love</h2>
+<div class="tabs" role="tablist">
+    <button class="tab active" role="tab" aria-selected="true" aria-controls="regions" id="tab-regions">Regions</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="cities" id="tab-cities">Cities</button>
+    <button class="tab" role="tab" aria-selected="false" aria-controls="places" id="tab-places">Places of Interest</button>
+</div>
+<div class="tab-content">
+    <!-- Regions Tab -->
+    <div id="regions" class="tab-panel active" role="tabpanel" aria-labelledby="tab-regions">
+        <div class="columns">
+            <div class="column">
+                <div class="destination">
+                    <span>Bihar</span>
+                    <span class="property-count">764 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Santorini</span>
+                    <span class="property-count">1,772 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Majorca</span>
+                    <span class="property-count">6,383 properties</span>
+                </div>
+                <div class="destination">
+                    <span>California</span>
+                    <span class="property-count">12,276 properties</span>
+                </div>
+                <div class="destination">
+                    <span>New South Wales</span>
+                    <span class="property-count">13,133 properties</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="destination">
+                    <span>Algarve</span>
+                    <span class="property-count">18,344 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Florida</span>
+                    <span class="property-count">54,603 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Crete</span>
+                    <span class="property-count">12,366 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Tuscany</span>
+                    <span class="property-count">30,587 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Andalucía</span>
+                    <span class="property-count">45,311 properties</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cities Tab -->
+    <div id="cities" class="tab-panel" role="tabpanel" aria-labelledby="tab-cities" hidden>
+        <div class="columns">
+            <div class="column">
+                <div class="destination">
+                    <span>Paris</span>
+                    <span class="property-count">764 properties</span>
+                </div>
+                <div class="destination">
+                    <span>New York</span>
+                    <span class="property-count">1,772 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Tokyo</span>
+                    <span class="property-count">6,383 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Los Angeles</span>
+                    <span class="property-count">12,276 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Sydney</span>
+                    <span class="property-count">13,133 properties</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="destination">
+                    <span>Lisbon</span>
+                    <span class="property-count">18,344 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Miami</span>
+                    <span class="property-count">54,603 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Athens</span>
+                    <span class="property-count">12,366 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Rome</span>
+                    <span class="property-count">30,587 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Madrid</span>
+                    <span class="property-count">45,311 properties</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Places of Interest Tab -->
+    <div id="places" class="tab-panel" role="tabpanel" aria-labelledby="tab-places" hidden>
+        <div class="columns">
+            <div class="column">
+                <div class="destination">
+                    <span>Eiffel Tower</span>
+                    <span class="property-count">764 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Statue of Liberty</span>
+                    <span class="property-count">1,772 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Mount Fuji</span>
+                    <span class="property-count">6,383 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Hollywood Sign</span>
+                    <span class="property-count">12,276 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Sydney Opera House</span>
+                    <span class="property-count">13,133 properties</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="destination">
+                    <span>Belem Tower</span>
+                    <span class="property-count">18,344 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Everglades</span>
+                    <span class="property-count">54,603 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Acropolis</span>
+                    <span class="property-count">12,366 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Colosseum</span>
+                    <span class="property-count">30,587 properties</span>
+                </div>
+                <div class="destination">
+                    <span>Prado Museum</span>
+                    <span class="property-count">45,311 properties</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+    <!-- Chatbot Integration -->
+    <aside id="chatbot-container">
+        <button id="chatbot-toggle" aria-label="Toggle Chatbot">Chat with us</button>
+        <iframe id="chatbot-iframe" title="Chatbot" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/29b06691-2c9a-4920-b2a5-d71663a9831f" hidden></iframe>
+    </aside>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Email: support@dreamplace.com</li>
+                        <li>Phone: +1 (234) 567-890</li>
+                        <li>Address: 123 Travel Street, Adventure City, World</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2024 DreamPlace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-aJ7pJqBDy/hXaKcD3qj+j/UqB7og2q9M+7SnJp1QbZT/wMgzKw9vb3uD+8iD3+Qa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XO/NnzF1Xj4lvBf5NTDqI6X4m/MhYdEo3k8vIyqjhJlzGQPSzgn/p1CJEYzwGZqE5Amggl9EpjBMK4KkY0pjtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script>
+        // Select all tab buttons and tab panels
+        const tabs = document.querySelectorAll('.tab');
+        const tabPanels = document.querySelectorAll('.tab-panel');
+    
+        // Function to handle tab clicks
+        function handleTabClick(event) {
+            // Remove active class from all tabs and hide all tab panels
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+                tab.setAttribute('aria-selected', 'false');
+                const panelId = tab.getAttribute('aria-controls');
+                document.getElementById(panelId).hidden = true;
+            });
+    
+            // Add active class to the clicked tab and show the corresponding tab panel
+            event.currentTarget.classList.add('active');
+            event.currentTarget.setAttribute('aria-selected', 'true');
+            const panelId = event.currentTarget.getAttribute('aria-controls');
+            document.getElementById(panelId).hidden = false;
+        }
+    
+        // Add click event listeners to each tab
+        tabs.forEach(tab => {
+            tab.addEventListener('click', handleTabClick);
+        });
+    </script>
+    
+   
+</body>
+</html>
