@@ -1,0 +1,8 @@
+{
+  "fullname": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "123-456-7890",
+  "profession": "Software Engineer",
+  "city": "New York",
+  "photo": "/uploads/1720191384103.jpg"
+}
